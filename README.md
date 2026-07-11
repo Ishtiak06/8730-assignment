@@ -1,1 +1,1 @@
-# 8730-SmartCentres-REIT-Assignment
+# 8730-assignment
