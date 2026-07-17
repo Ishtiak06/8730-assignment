@@ -4,7 +4,7 @@
 *.ipynb_checkpoints
 
 # Jupyter Notebook
-*.ipynb
+.ipynb_checkpoints
 
 # Python
 __pycache__/
@@ -49,14 +49,6 @@ env/
 .DS_Store
 Thumbs.db
 
-# Data files
-*.csv
-*.xlsx
-*.json
-*.parquet
-*.pkl
-*.pickle
-
 # Environment variables
 .env
 .env.local
@@ -64,3 +56,7 @@ Thumbs.db
 # Colab specific
 .colab/
 *.ipynb~
+
+# Data directory - preserve actual data files
+data/**/.DS_Store
+data/**/__pycache__
